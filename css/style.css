@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+/* Кнопки - одинаковый стиль */
+button, .color-btn {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+button:hover, .color-btn:hover {
+    background-color: #45a049;
+}
+
+/* Цветные кнопки сделаны span, они выглядят как кнопки */
+.color-list {
+    display: flex;
+    gap: 10px;
+}
+
+.color-btn {
+    background-color: #555;
+}
+
+/* Блок квадратный для задачи 5 */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Счётчик для задачи 6 */
+.number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
